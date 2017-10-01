@@ -2,11 +2,214 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42d63408-952d-4241-a534-80d64776e8e7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MANIFEST.in" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/q01_calculate_statistics/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/q02_plot/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/q03_pearson_correlation/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/q04_spearman_correlation/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/q01_plot/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/q02_plot/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/q03_regression_plot/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/q04_cor/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gasolution/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Descreptive Analysis/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/.idea/Inferential Statistics.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/.idea/preferred-vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/data/house_pricing.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/q01_cond_prob/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/q01_cond_prob/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/q01_cond_prob/tests/test_q01_cond_prob.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/q02_confidence_interval/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/q02_confidence_interval/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/q02_confidence_interval/tests/test_q02_confidence_interval.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/q03_t_test/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/q03_t_test/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/q03_t_test/tests/test_q03_t_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/q04_chi2_test/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/q04_chi2_test/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Inferential Statistics/q04_chi2_test/tests/test_q04_chi2_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linear Regression/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linear Regression/data/house_prices_multivariate.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linear Regression/images/hist_residuals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linear Regression/images/plot_residuals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linear Regression/images/qq_residuals_plot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linear Regression/q01_load_data/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linear Regression/q02_data_splitter/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linear Regression/q03_linear_regression/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linear Regression/q04_linear_predictor/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linear Regression/q05_residuals/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linear Regression/q06_plot_residuals/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linear Regression/q07_hist_residuals/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Linear Regression/q08_qq_residuals/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q01_get_total_deliveries_players/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q01_get_total_deliveries_players/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q01_get_total_deliveries_players/tests/test_q01_get_total_deliveries_played.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q02_get_wicket_delivery_numbers_array/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q02_get_wicket_delivery_numbers_array/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q02_get_wicket_delivery_numbers_array/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q02_get_wicket_delivery_numbers_array/tests/test_q02_get_wicket_delivery_numbers_array.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q03_get_toss_win_count/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q03_get_toss_win_count/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q03_get_toss_win_count/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q03_get_toss_win_count/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q03_get_toss_win_count/tests/test_q03_get_toss_win_count.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q04_get_all_sixes_filter/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q04_get_all_sixes_filter/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q04_get_all_sixes_filter/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q04_get_all_sixes_filter/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q04_get_all_sixes_filter/tests/test_q04_get_all_sixes_filter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q05_create_delivery_series/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q05_create_delivery_series/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q05_create_delivery_series/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q05_create_delivery_series/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q05_create_delivery_series/tests/test_q05_create_delivery_series.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q06_create_runs_series/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q06_create_runs_series/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q06_create_runs_series/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q06_create_runs_series/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Numpy Advanced/q06_create_runs_series/tests/test_q06_create_runs_series.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Intermediate/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Intermediate/data/ipl_matches_small.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Intermediate/data/weather_small_2012.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Intermediate/q01_zeros_array/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Intermediate/q02_zeros_reshaped/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Intermediate/q03_create_3d_array/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Intermediate/q04_read_csv_data_to_ndarray/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Intermediate/q05_read_csv_data/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Intermediate/q06_get_unique_matches_count/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Intermediate/q07_get_unique_teams_set/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Intermediate/q08_get_total_extras/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/.idea/pandas_project.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/.idea/preferred-vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/data/ipl_dataset.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/data/weather_2012.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q01_read_csv_data_to_df/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q01_read_csv_data_to_df/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q01_read_csv_data_to_df/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q02_get_unique_values/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q02_get_unique_values/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q02_get_unique_values/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q03_get_run_counts/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q03_get_run_counts/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q03_get_run_counts/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q04_get_match_specific_df/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q04_get_match_specific_df/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q04_get_match_specific_df/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q05_create_bowler_filter/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q05_create_bowler_filter/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q05_create_bowler_filter/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q06_get_match_innings_runs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q06_get_match_innings_runs/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q06_get_match_innings_runs/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q07_get_run_counts_by_match/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q07_get_run_counts_by_match/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pandas/q07_get_run_counts_by_match/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/data/ipl_match.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/data/ipl_match.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q01_read_data/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q01_read_data/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q01_read_data/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q01_read_data/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q01_read_data/tests/test_q01_function_name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q01_read_data/tests/test_q01_read_data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q02_teams/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q02_teams/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q02_teams/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q02_teams/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q02_teams/tests/test_q02 _teams.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q03_first_batsman/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q03_first_batsman/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q03_first_batsman/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q03_first_batsman/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q03_first_batsman/tests/test_q01_function_name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q03_first_batsman/tests/test_q03_first_batsman.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q04_count/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q04_count/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q04_count/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q04_count/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q04_count/tests/test_q01_function_name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q04_count/tests/test_q04_deliveries_count.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q05_runs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q05_runs/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q05_runs/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q05_runs/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q05_runs/tests/test_q01_function_name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q05_runs/tests/test_q05_BC_runs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q06_bowled_players/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q06_bowled_players/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q06_bowled_players/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q06_bowled_players/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q06_bowled_players/tests/test_q01_function_name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q06_bowled_players/tests/test_q06_bowled_out.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q07_extras/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q07_extras/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q07_extras/build.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q07_extras/tests/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q07_extras/tests/test_q01_function_name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/python_getting_started/q07_extras/tests/test_q07_extras_runs.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Descreptive Analysis/README.md" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Descreptive Analysis/images/q02_mean.png" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/images/q02_mean.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Descreptive Analysis/images/q02_median.png" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/images/q02_median.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Descreptive Analysis/images/q02_mode.png" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/images/q02_mode.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Descreptive Analysis/q01_calculate_statistics/build.py" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/q01_calculate_statistics/build.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Descreptive Analysis/q02_plot/build.py" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/q02_plot/build.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Descreptive Analysis/q03_pearson_correlation/build.py" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/q03_pearson_correlation/build.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Descreptive Analysis/q04_spearman_correlation/build.py" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/q04_spearman_correlation/build.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exploratory Data Analysis/README.md" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exploratory Data Analysis/data/house_prices_multivariate.csv" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/data/house_prices_multivariate.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exploratory Data Analysis/images/image_1.png" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/images/image_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exploratory Data Analysis/images/image_2.png" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/images/image_2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exploratory Data Analysis/images/image_3.png" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/images/image_3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exploratory Data Analysis/images/image_4.png" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/images/image_4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exploratory Data Analysis/q01_plot/build.py" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/q01_plot/build.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exploratory Data Analysis/q02_plot/build.py" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/q02_plot/build.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exploratory Data Analysis/q03_regression_plot/build.py" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/q03_regression_plot/build.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Exploratory Data Analysis/q04_cor/build.py" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/q04_cor/build.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Inferential Statistics/q01_cond_prob/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Inferential Statistics/q01_cond_prob/tests/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/q01_calculate_statistics/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Inferential Statistics/q02_confidence_interval/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/q02_plot/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Inferential Statistics/q02_confidence_interval/tests/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/q03_pearson_correlation/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Inferential Statistics/q03_t_test/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Descreptive Analysis/q04_spearman_correlation/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Inferential Statistics/q03_t_test/tests/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Inferential Statistics/q04_chi2_test/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/q01_plot/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Numpy Advanced/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/q02_plot/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Numpy Advanced/q01_get_total_deliveries_players/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/q03_regression_plot/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Numpy Advanced/q01_get_total_deliveries_players/tests/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Exploratory Data Analysis/q04_cor/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Numpy Advanced/q02_get_wicket_delivery_numbers_array/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Inferential Statistics/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Numpy Advanced/q02_get_wicket_delivery_numbers_array/tests/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Inferential Statistics/q04_chi2_test/tests/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Numpy Advanced/q03_get_toss_win_count/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Linear Regression/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Numpy Advanced/q03_get_toss_win_count/tests/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Linear Regression/q01_load_data/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Numpy Advanced/q04_get_all_sixes_filter/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Linear Regression/q02_data_splitter/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Numpy Advanced/q04_get_all_sixes_filter/tests/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Linear Regression/q03_linear_regression/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Numpy Advanced/q05_create_delivery_series/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Linear Regression/q04_linear_predictor/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Numpy Advanced/q05_create_delivery_series/tests/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Linear Regression/q05_residuals/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Numpy Advanced/q06_create_runs_series/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Linear Regression/q06_plot_residuals/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Numpy Advanced/q06_create_runs_series/tests/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Linear Regression/q07_hist_residuals/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pandas/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Linear Regression/q08_qq_residuals/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pandas/q01_read_csv_data_to_df/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Python Intermediate/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pandas/q02_get_unique_values/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Python Intermediate/q01_zeros_array/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pandas/q03_get_run_counts/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Python Intermediate/q02_zeros_reshaped/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pandas/q04_get_match_specific_df/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Python Intermediate/q03_create_3d_array/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pandas/q05_create_bowler_filter/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Python Intermediate/q04_read_csv_data_to_ndarray/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pandas/q06_get_match_innings_runs/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Python Intermediate/q05_read_csv_data/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pandas/q07_get_run_counts_by_match/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Python Intermediate/q06_get_unique_matches_count/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_getting_started/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Python Intermediate/q07_get_unique_teams_set/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_getting_started/q01_read_data/__init__.py" afterPath="$PROJECT_DIR$/gasolution/Python Intermediate/q08_get_total_extras/__init__.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +254,8 @@
       <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-706">
-              <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#189#232#0" expanded="true" />
               </folding>
@@ -142,6 +345,11 @@
               <item name="solution" type="b2602c69:ProjectViewProjectNode" />
               <item name="solution" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="gasolution" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -155,6 +363,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gasolution" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,6 +384,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="42d63408-952d-4241-a534-80d64776e8e7" name="Default" comment="" />
@@ -183,9 +399,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1368" height="748" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24926901" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24926901" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -220,6 +435,43 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/q06_plot_residuals/build.py" />
+    <entry file="file://$PROJECT_DIR$/q02_data_splitter/build.py" />
+    <entry file="file://$PROJECT_DIR$/q01_load_data/tests/test_q01_load_data.py" />
+    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#189#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/q03_linear_regression/README.md" />
     <entry file="file://$PROJECT_DIR$/q01_load_data/README.md" />
     <entry file="file://$PROJECT_DIR$/q02_data_splitter/README.md" />
@@ -286,8 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-706">
-          <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#189#232#0" expanded="true" />
           </folding>

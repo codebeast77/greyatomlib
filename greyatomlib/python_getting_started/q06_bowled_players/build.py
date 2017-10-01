@@ -1,7 +1,7 @@
-import sys, os
-sys.path.append(os.path.join(os.path.dirname(os.curdir), '..'))
+from greyatomlib.python_getting_started.q01_read_data.build import read_data
+data = read_data()
 
-def bowled_out(data):
+def bowled_out(data=data):
     bowled_players = []
     deliveries = data['innings'][1]['2nd innings']['deliveries']
     for delivery in deliveries:

@@ -1,7 +1,9 @@
-import sys, os
-sys.path.append(os.path.join(os.path.dirname(os.curdir), '..'))
+# Default Imports
+from greyatomlib.python_getting_started.q01_read_data.build import read_data
+data = read_data()
 
-def BC_runs(data):
+
+def BC_runs(data=data):
 
     runs = 0
     deliveries = data['innings'][0]['1st innings']['deliveries']

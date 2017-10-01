@@ -24,7 +24,7 @@ setup(
     # https://packaging.python.org/en/latest/single_source_version.html
     version='1.0.6',
 
-    description='Error handling project for greyatom students',
+    description='Solution package',
     long_description=long_description,
 
     # The project's main homepage.
@@ -53,8 +53,7 @@ setup(
         #'License :: OSI Approved :: MIT License',
 
         # Specify the Python versions you support here. In particular, ensure
-        # that you indicate whether you support Python 2, Python 3 or both.
-        'Programming Language :: Python :: 2',
+        # that you indicate whether you support Python 2, Python 3 or both
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
@@ -63,7 +62,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='Error handling package for all students commit live projects',
+    keywords='solution package for all students commit live projects',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().

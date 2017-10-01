@@ -1,6 +1,8 @@
-import sys, os
-sys.path.append(os.path.join(os.path.dirname(os.curdir), '..'))
+# default imports
+from greyatomlib.python_getting_started.q01_read_data.build import read_data
+data = read_data()
 
-def teams(data):
+# solution
+def teams(data=data):
     teams = data['info']['teams']
     return teams

@@ -17,7 +17,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='solution',
+    name='gasolution',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
@@ -28,7 +28,7 @@ setup(
     long_description=long_description,
 
     # The project's main homepage.
-    url='https://github.com/commit-live-admin/solution',
+    url='https://github.com/commit-live-admin/gasolution',
 
     # Author details
     author='Sangam Angre',
@@ -106,7 +106,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
-            'solution=solution:main',
+            'gasolution=gasolution:main',
         ],
     },
 )

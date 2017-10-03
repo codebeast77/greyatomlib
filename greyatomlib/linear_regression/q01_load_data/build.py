@@ -1,4 +1,4 @@
-from greyatomlib import pandas as pd
+import pandas as pd
 
 
 def load_data(path):

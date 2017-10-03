@@ -1,7 +1,7 @@
 # So that float division is by default in python 2.7
 from __future__ import division
 
-from greyatomlib import pandas as pd
+import pandas as pd
 
 df = pd.read_csv('data/house_pricing.csv')
 

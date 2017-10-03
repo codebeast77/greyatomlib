@@ -1,6 +1,5 @@
 import scipy.stats as stats
-
-from greyatomlib import pandas as pd
+import pandas as pd
 
 df = pd.read_csv('data/house_pricing.csv')
 

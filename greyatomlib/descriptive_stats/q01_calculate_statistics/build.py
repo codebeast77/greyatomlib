@@ -1,7 +1,6 @@
 # Default Imports
 import numpy as np
-
-from greyatomlib import pandas as pd
+import pandas as pd
 
 data = pd.read_csv('data/house_prices_multivariate.csv')
 sale_price = data.loc[:, "SalePrice"]

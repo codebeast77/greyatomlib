@@ -9,10 +9,7 @@ which would give you most important feature falling under k-th percentile.
 
 ## Write a function `percentile_k_features` that:
 
-- Should return a list of features which are retained.
-
-
-
+- Should return a list of features which fall under the k-th percentile.
 
 
 
@@ -21,8 +18,8 @@ which would give you most important feature falling under k-th percentile.
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- | 
 | df | DataFrame | compulsory |  | Input DataFrame |
-| predictors| List | compulsory |  | Input List |
-| target| string | compulsory |  | Input target variable |
+| predictors| List | compulsory |  | List of predictor variable names |
+| target| string | compulsory |  | Name of target variable |
 | k| integer | compulsory |  | Input how many variables you want under k-th percentile |
 
 

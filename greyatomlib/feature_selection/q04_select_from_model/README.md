@@ -5,6 +5,7 @@ feature selection
 
 ## Write a function `select_from_model` that:
 - Should return a list of features which are retained.
+- The seed should be set as 9.
 
 
 ## Parameters:

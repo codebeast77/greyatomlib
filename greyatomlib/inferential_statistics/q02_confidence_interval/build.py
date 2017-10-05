@@ -2,7 +2,7 @@ import math
 import numpy as np
 import scipy.stats as stats
 
-from greyatomlib import pandas as pd
+from greyatomlib import pandas_project as pd
 
 df = pd.read_csv('data/house_pricing.csv')
 

@@ -1,5 +1,5 @@
 # Default Import
-from greyatomlib import pandas as pd
+from greyatomlib import pandas_project as pd
 
 dataframe_1 = pd.read_csv('data/house_prices_multivariate.csv')
 house_price = dataframe_1.loc[:, 'SalePrice']

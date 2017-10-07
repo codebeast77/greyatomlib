@@ -7,12 +7,9 @@ This assignment will help you how to create and apply Lasso regressor method of
 regularization in action and also provide a way to implement feature selection which comes handy 
 often times.
  
-**The function should**
-- Be named `lasso` .
+## Write a function `lasso` that :
 - Should return a model with implementation of L1 (Lasso)  Regularization.
-- RMSE for train data set.
-- RMSE for test data set.
-- Should be able to load the data with the help of function `load_data`.
+- Should be able to fit model on X_train, y_train.
 
 Note : The random seed and as well as random state should be set as 9. 
 
@@ -21,11 +18,7 @@ Note : The random seed and as well as random state should be set as 9.
 
 | Parameter | dtype | argument type | default value | description |
 | :---: | :---: | :---: | :---: | :---: |
-| X_train | Dataframe for training, testing; any format acceptable by sklearn| compulsory |  | X_train |
-| X_test | Dataframe for training, testing; any format acceptable by sklearn| compulsory |  | X_test |
-| y_train | Dataframe for training, testing; any format acceptable by sklearn | compulsory |  | y_train |
-| Y_test | Dataframe for training, testing; any format acceptable by sklearn| compulsory |  | Y_test |
-| alpha | Numeric Number | optional | 1 | learning_rate |
+| alpha | Numeric Number | compulsory | 1 | learning_rate |
 
 #### Returns:
 

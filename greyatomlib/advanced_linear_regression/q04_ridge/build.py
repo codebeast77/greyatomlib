@@ -5,10 +5,12 @@ import numpy as np
 from sklearn.metrics import mean_squared_error
 from greyatomlib.advanced_linear_regression.q01_load_data.build import load_data
 
+data_set, X_train, X_test, y_train, y_test = load_data('data/house_prices_multivariate.csv')
+
 np.random.seed(9)
 
-def ridge(alpha=1):
-    data_set, X_train, X_test, y_train, y_test = load_data('data/house_prices_multivariate.csv')
+
+def ridge(alpha=0.01):
     ridge = Ridge(alpha=alpha, normalize=True, random_state=9)
     ridge.fit(X_train, y_train)
     predict_train = ridge.predict(X_train)

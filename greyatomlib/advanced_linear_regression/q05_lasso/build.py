@@ -5,12 +5,13 @@ import numpy as np
 from sklearn.metrics import mean_squared_error
 from greyatomlib.advanced_linear_regression.q01_load_data.build import load_data
 
+data_set, X_train, X_test, y_train, y_test = load_data('data/house_prices_multivariate.csv')
 
 np.random.seed(9)
 
 
+# Write your solution here
 def lasso(alpha=1):
-    data_set, X_train, X_test, y_train, y_test = load_data('data/house_prices_multivariate.csv')
     lasso = Lasso(alpha=alpha, normalize=True, random_state=9)
     lasso.fit(X_train, y_train)
     predict_train = lasso.predict(X_train)

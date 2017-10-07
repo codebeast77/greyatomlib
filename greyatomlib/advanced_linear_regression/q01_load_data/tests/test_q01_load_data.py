@@ -10,8 +10,8 @@ class TestLoad_data(TestCase):
     def test_load_data(self):
         data, X_train, X_test, y_train, y_test = load_data('data/house_prices_multivariate.csv')
 
-        self.assertTrue(type(data),pd.DataFrame)
-        self.assertTrue(len(X_test),455)
+        self.assertTrue(type(data), pd.DataFrame)
+        self.assertTrue(len(X_test), 455)
 
 
 

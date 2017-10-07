@@ -1,10 +1,12 @@
 import sys, os
+import numpy as np
 sys.path.append(os.path.join(os.path.dirname(os.curdir)))
 
 from unittest import TestCase
-import numpy as np
+
 from greyatomlib.advanced_linear_regression.q01_load_data.build import load_data
 from q02_Max_important_feature.build import Max_important_feature
+
 
 class TestMax_important_feature(TestCase):
     def test_Max_important_feature(self):

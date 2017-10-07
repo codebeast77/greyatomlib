@@ -1,4 +1,4 @@
-## Cross validate your model.
+# Cross validate your model.
 
 Splendidly done,
 
@@ -9,9 +9,10 @@ This assignment will provide you a good hold on concept such as cross validation
 concept.
 
  
-**The function should**
-- Be named `cross_validation` .
-- Should return mean error scores for different cross validation folds.
+##  Write a function `cross_validation` that :
+- Calculates the mean error scores for different cross validation folds.
+- Should fit the model on X_train and y_train.
+- Gives out the output for new array passed consists of 4,5,6,7. 
 
 #### Parameters:
 

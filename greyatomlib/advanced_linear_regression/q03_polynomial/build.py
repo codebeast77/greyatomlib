@@ -1,5 +1,5 @@
 # Default imports
-from greyatomlib.advanced_linear_regression.q01_load_data.build import load_data
+from q01_load_data.build import load_data
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import make_pipeline
 from sklearn.linear_model import LinearRegression

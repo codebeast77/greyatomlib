@@ -9,4 +9,4 @@ weight_of_nasa_space_shuttle = dataframe_2.loc[:, 'SalePrice']
 
 def spearman_correlation():
     return dataframe_1.SalePrice.corr(dataframe_2.SalePrice, method='spearman')
-print(spearman_correlation())
+
